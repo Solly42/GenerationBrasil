@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: gray;
+    width: 1200px;
+    height: 185px;
+}
+
+nav
+{
+    background-color: white;
+    width: 1200px;
+    height: 70px;
+}
+
+aside
+{
+    background-color: sienna;
+    width: 280px;
+    height: 1000px;
+    float: left;
+}
+
+
+.s1 
+{
+    background-color: slateblue;
+    float: right;
+    width: 460px;
+    height: 500px;
+}
+
+.s2
+{
+    background-color: slategray;
+    float: right;
+    width: 460px;
+    height: 500px;
+}
+
+.s3
+{
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 460px;
+    height: 500px;
+}
+
+.s4
+{
+    background-color: steelblue;
+    float: left;
+    width: 460px;
+    height: 500px;
+}
+
+footer
+{
+    background-color: violet;
+    width: 1200px;
+    height: 200px;
+    clear: both;
+
+}
+#caixa
+{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+}

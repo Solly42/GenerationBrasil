@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+textarea{
+    resize: none;
+}
+
+#caixa{
+    width: 400px;
+    height: 500px;
+    background-image: url("../img/AlmondBlossoms.jpeg");
+    margin: 0 auto;
+    border: rgb(100, 120, 150) 2px solid;
+    border-radius: 5px;
+    padding: 15px;
+}

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+
+.verde{
+    padding: 1%;
+}
+
+.vermelha{
+    background-color: indigo;
+}
+
+#caixa{
+    background-color: rgba(35, 189, 35, 0.685);
+    width: 40%;
+    margin: 0 auto;
+    border: solid red 1px;
+}
+

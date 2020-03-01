@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+header
+{
+    width: 1200px;
+    height: 185px;
+    background-color: tomato;
+}
+
+nav
+{
+    width: 1200px;
+    height: 70px;
+    background-color: springgreen;
+}
+
+aside
+{
+    width: 280px;
+    height: 1000px;
+    background-color: yellow;
+    float: left;
+}
+
+section
+{
+    width: 920px;
+    height: 1000px;
+    background-color: violet;
+    float: right; 
+}
+
+footer
+{
+    width: 1200px;
+    height: 200px;
+    background-color: peru;
+    clear: both;
+}
+
+#caixa
+{
+    width: 1200px;
+    margin: 0 auto;
+    
+}

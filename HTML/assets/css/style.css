@@ -1,0 +1,41 @@
+/* comentário */
+
+/* 
+sintaxe;
+elemento {propriedade:valor;
+    propriedade: valor}
+    */
+
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Overpass', sans-serif;
+    
+}
+/* seletor de id */
+
+#paragrafo1 {
+    color: mediumseagreen;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40;
+}
+
+#paragrafo2 {   font-weight: bold;
+    font-style: italic;
+    color: rgb(190, 20, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    background-color: rgb(15, 223, 160);
+   
+}
+
+.grupo1{
+    font-size: 20px;
+}
+
+.grupo2{
+    font-size: 40px;
+    color: rgb(85, 166, 233);
+}

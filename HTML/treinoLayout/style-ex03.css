@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1200px;
+    height: 185px;
+    background-color: red
+}
+
+nav{
+    width: 1200px;
+    height: 70px;
+    background-color: aqua
+}
+
+main{
+    width: 1200px;
+    height: 1200px;
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    clear: both;
+}
+
+#side1{
+    width: 150px;
+    height: 1000px;
+    background-color: rgb(2, 255, 65);
+    float: left;
+}
+
+#side2{
+    width: 150px;
+    height: 1000px;
+    background-color: rgb(247, 0, 255);
+    float: right;
+}
+
+#solly1{
+    background-color: rgb(255, 238, 0);
+    float: left;
+    width: 450px;
+    height: 500px;
+}
+
+#solly2{
+    background-color: rgb(255, 64, 0);
+    float: left;
+    width: 450px;
+    height: 500px;
+}
+
+#solly3{
+    background-color: darkgoldenrod;
+    float: left;
+    width: 450px;
+    height: 500px;
+}
+
+#solly4{
+    background-color: dodgerblue;
+    float: left;
+    width: 450px;
+    height: 500px;
+}
+
+#art1{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(255, 47, 47);
+    float: left;
+}
+
+#art2{
+    width: 600px;
+    height: 200px;
+    background-color: greenyellow;
+    float: left;
+}
+
+#box{
+    width: 1200px;
+    margin: 0 auto;
+}
