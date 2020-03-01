@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<script>
+    var nome, n1, n2, media;
+
+	nome = prompt("Digite um nome ");
+	n1 = parseInt(prompt("Escreva a primeira nota "));
+	n2 = parseInt(prompt("Escreva a segunda nota "));
+
+	media = (n1 + n2) / 2;
+	Math.round(media);
+
+		if (media <=5)
+		{
+			alert("Você foi reprovado");
+		}
+	
+		else if(media >7)
+		{
+			alert("Você foi aprovado");
+		}
+		else
+		{
+			alert("Você está de recuperação");
+		}
+</script>

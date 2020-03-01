@@ -1,0 +1,22 @@
+<script>
+
+    //nota soma e divide por 3
+    var nome, resultado, nota1, nota2, nota3, media;
+		
+	nome = prompt ("Digite um nome ");
+	nota1 = parseFloat(prompt("Digite a primeira nota: "))
+    nota2 = parseFloat(prompt("Digite a segunda nota: "))
+    nota3 = parseFloat(prompt("Digite a terceira nota: "))
+	media = (nota1 + nota2 + nota3) / 3;
+	
+	if (media >= 7)
+	{
+		resultado = ("você foi aprovado!")
+	}
+    else
+	{
+		resultado = ("você foi reprovado");
+	}	
+	console.log ((nome + ", sua média foi: ") + Math.round(media) + " " + resultado);
+
+</script>

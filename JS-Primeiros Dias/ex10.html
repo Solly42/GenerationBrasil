@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<script>
+    var anoNasc, anoAdm, codigo, idade, admissao, anoAtual = 2020;
+		
+		
+	codigo = parseInt(prompt("Qual seu codigo de identificação? "));
+    anoNasc = parseInt(prompt("Qual seu ano de nascimento? "));
+	anoAdm = parseInt(prompt("Qual ano você foi admitido "));
+
+	idade = anoAtual - anoNasc;
+	admissao = anoAtual - anoAdm;
+
+	if (idade >= 65)
+	{
+	    console.log("Sua idade é: " + idade + " anos");
+		if(admissao >=30)	
+		{
+            console.log("Tempo de serviço é de: " + admissao + " anos");
+		    if (idade > 60 && admissao > 25)	
+			{
+			    console.log("Requerer aposentadoria");
+			}
+				
+		}
+	}
+	else
+    {
+			console.log("Não requerer");
+    }
+</script>
