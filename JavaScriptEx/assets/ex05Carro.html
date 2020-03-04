@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carro</title>
+</head>
+<body>
+    <script>
+        
+        function Carro (_marca, _anoDeFabricacao, _velMaxima, velAtual) {
+            
+            // atributos
+            this.marca = _marca;
+            this.anoDeFabricacao = _anoDeFabricacao;
+            this.velMaxima = parseInt(_velMaxima);
+            this.velAtual = parseInt("0")
+            // fim dos atributos
+        }
+        
+        // inicio do método acelerar
+        Carro.prototype.acelerar = function () {
+            
+            for(this.velAtual = 0; this.velAtual <= this.velMaxima; this.velAtual++) {
+                
+                
+            }
+            document.write(`Sua velocidade era 0 e agora é ${this.velMaxima} <br>`)
+        } 
+        
+        Carro.prototype.desacelerar = function () {
+            
+            for(this.velAtual = this.velMaxima; this.velAtual >= this.velMaxima; this.velAtual--) {
+                
+                
+            }
+            this.velAtual++
+            document.write(`Sua velocidade era ${this.velAtual} e agora é 0 <br>`)
+        } 
+        
+        // instânciar = cópia do objeto
+        carro1 = new Carro ("civic" , "2017", "60", "");
+        
+        carro1.acelerar();  
+        carro1.desacelerar();
+        carro1.acelerar();
+        
+        
+        
+        
+    </script>
+    
+</body>
+</html>
