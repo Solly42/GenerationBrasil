@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        
+        try {
         function Carro (_marca, _anoDeFabricacao, _velMaxima, velAtual) {
             
             // atributos
@@ -46,7 +46,10 @@
         carro1.desacelerar();
         carro1.acelerar();
         
-        
+    }
+    catch (erro) {
+        alert("Erro" + erro)
+    }
         
         
     </script>
